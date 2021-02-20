@@ -7,6 +7,22 @@ body {
   text-align: center;
   background-color: #e5e7eb;
   padding-top: 3rem;
+  background: rgba(209, 106, 189, 1);
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(209, 106, 189, 1),
+    rgba(99, 166, 218, 1)
+  );
+  background: -moz-linear-gradient(
+    top left,
+    rgba(209, 106, 189, 1),
+    rgba(99, 166, 218, 1)
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgba(209, 106, 189, 1),
+    rgba(99, 166, 218, 1)
+  );
 }
 .card {
   background-color: white;
@@ -32,12 +48,13 @@ body {
 }
 
 button {
-  padding : 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
-  margin : 1rem;
+  margin: 1rem;
+  font-weight: bold;
 }
 
 input {
-  padding : 0.5rem;
-  font-size: 1rem
+  padding: 0.5rem;
+  font-size: 1rem;
 }
